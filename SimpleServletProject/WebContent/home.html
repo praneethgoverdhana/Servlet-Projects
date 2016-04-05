@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Home Page</title>
+</head>
+<body>
+	<h1>Hello, Welcome to a simple page by a servlet</h1>
+
+	<h3>Please enter your name and details below:</h3>
+
+	<form action="SimpleServlet" method="post">
+		<p>
+			<strong>Name:</strong> <input type="text"
+				placeholder="Enter your name here" name="username" />
+		</p>
+		<p> <strong> Hobbies: </strong></p>
+		<input type="checkbox" name="userHobbies" value="Playing PC Games"> Playing PC Games <br/>
+		<input type="checkbox" name="userHobbies" value="Watching TV Shows"> Watching TV Shows <br/>
+		<input type="checkbox" name="userHobbies" value="Surfing Internet"> Surfing Internet <br/>
+		<input type="checkbox" name="userHobbies" value="Painting"> Painting <br/>
+		<p> <strong>Gender:</strong> </p>
+		<input type="radio" name="gender" value="Male">Male <br/>
+		<input type="radio" name="gender" value="Female">Female <br/>
+		<br/>
+		<input type="submit" value="Submit" />
+	</form>
+</body>
+</html>
